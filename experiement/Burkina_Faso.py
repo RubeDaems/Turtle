@@ -1,0 +1,40 @@
+from turtle import *
+
+speed(5)
+
+pencolor('green')
+fillcolor('green')
+begin_fill()
+for _ in range(2):
+    forward(360)
+    right(90)
+    forward(120)
+    right(90)
+end_fill()
+pencolor('red')
+fillcolor('red')
+begin_fill()
+for _ in range(2):
+    forward(360)
+    left(90)
+    forward(120)
+    left(90)
+end_fill()
+teleport(225, 10)
+pencolor('yellow')
+fillcolor('yellow')
+begin_fill()
+for _ in range(5):
+    right(144)
+    forward(90)
+end_fill()
+teleport(180, 10)
+pencolor('yellow')
+fillcolor('yellow')
+begin_fill()
+forward(11.25)
+for _ in range(5):
+    right(72)
+    forward(22.5)
+end_fill()
+done()
